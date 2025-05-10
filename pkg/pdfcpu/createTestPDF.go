@@ -45,7 +45,6 @@ func CreateXRefTableWithRootDict() (*model.XRefTable, error) {
 		LinearizationObjs: types.IntSet{},
 		PageAnnots:        map[int]model.PgAnnots{},
 		PageThumbs:        map[int]types.IndirectRef{},
-		Signatures:        map[int]map[int]model.Signature{},
 		Stats:             model.NewPDFStats(),
 		ValidationMode:    model.ValidationRelaxed,
 		ValidateLinks:     false,
